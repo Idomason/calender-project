@@ -93,3 +93,48 @@
   background-color: lightseagreen;
   font-weight: bold;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 450px) {
+  .calender {
+    width: 350px;
+    height: 420px;
+  }
+
+  .day {
+    padding: 1px;
+  }
+
+  .days .day {
+    font-size: 12px;
+    margin: -5px;
+    width: 58.7px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  .calender {
+    width: 250px;
+    height: 320px;
+  }
+
+  .month h1 {
+    font-size: 24px;
+  }
+
+  .month p {
+    font-size: 14px;
+  }
+
+  .weekdays .weekday {
+    font-size: 12px;
+  }
+
+  .days .day {
+    font-size: 12px;
+    margin: -11px;
+    width: 48.7px;
+    height: 50px;
+  }
+}
